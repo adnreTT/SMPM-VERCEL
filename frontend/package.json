@@ -1,0 +1,30 @@
+{
+  "name": "smpm-frontend",
+  "private": true,
+  "version": "1.2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite preview --port $PORT",
+    "vercel-build": "vite build"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "chart.js": "^4.4.4",
+    "pinia": "^2.1.7",
+    "vue": "^3.5.10",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.14",
+    "vite": "^5.4.8"
+  },
+  "engines": {
+    "node": "18.x || 20.x || 22.x"
+  }
+}
